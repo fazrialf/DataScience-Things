@@ -1,3 +1,7 @@
+#Created by Fazrial Feizal
+#For Educational Purposes Only
+
+#Importing Libraries
 import seaborn as a 
 import matplotlib.pyplot as b 
 import pandas as c 
@@ -7,14 +11,16 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report
 
+#Loading Data
 irisDataset = c.read_csv('assets\iris.csv', header=0)
 y = irisDataset.iloc[:, 4].values
 x = irisDataset.iloc[:, :-1].values
 
+#Splitting Data
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.20)
 
 
-#Menghitung Akurasi Model
+#Scalling the Accuracy
 sc = StandardScaler()
 sc.fit(x_train)
 x_train = sc.transform(x_train)

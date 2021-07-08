@@ -1,9 +1,15 @@
-import seaborn as a 
-import matplotlib.pyplot as b 
-import pandas as c
-from pandas.core.indexes.api import Index
+#Created by Fazrial Feizal
+#For Educational Purposes Only
 
-irisDataset = c.read_csv('assets\iris.csv')
-a.scatterplot(x='sepals-length', y='sepals-width', hue='label', data=irisDataset).set_title('Sebaran Data Iris')
-b.figure(1)
-b.show()
+#Importing Libraries
+import seaborn as sns
+import matplotlib.pyplot as plt 
+import pandas as pd
+
+#Loading Data
+irisDataset = pd.read_csv('assets\iris.csv')
+
+#Ploting The Dispersion
+sns.scatterplot(x='sepals-length', y='sepals-width', hue='label', data=irisDataset).set_title('Sebaran Data Iris')
+plt.figure(1)
+plt.show()
