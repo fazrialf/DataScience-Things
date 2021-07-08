@@ -4,12 +4,12 @@
 ✔️ The list of Program Features
 1. Plotting with Scatter Plot
 
-![The Scatter Plot](/assets/plot.png)
+![The Scatter Plot](/Pizza%20Brand%20Prediction/assets/plot.png)
 
 2. Prediction
 
-![The Prediction](/assets/pred.png)
+![The Prediction](/Pizza%20Brand%20Prediction/assets/pred.png)
 
 3. Accuracy of the prediction
 
-![The Accuracy](/assets/accuracy.png)
+![The Accuracy](/Pizza%20Brand%20Prediction/assets/accuracy.png)
