@@ -4,10 +4,10 @@
 ✔️ The list of Program Features
 1. Accuracy
 
-![Accuracy](/assets/accuracy.png)
+![Accuracy](/Phone%20Price%20Classifier/assets/accuracy.png)
 
 2. Heatmap
 
-![Heatmap](/assets/heatmap.png)
+![Heatmap](/Phone%20Price%20Classifier/assets/heatmap.png)
 
 The Best Model for this case is SVC...
