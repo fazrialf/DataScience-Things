@@ -4,5 +4,7 @@ Since I was studying informatics engineering. I was inspired with Machine Learni
 
 Here is the list :
     💻 [Iris Classifier and Predicition](https://github.com/fazrialf/DataScience-Things/tree/main/Iris%20Classifier%20and%20Prediction)
+    
     💻 [Phone Price Classifier](https://github.com/fazrialf/DataScience-Things/tree/main/Phone%20Price%20Classifier)
+    
     💻 [Pizza Brand Classifier](https://github.com/fazrialf/DataScience-Things/tree/main/Pizza%20Brand%20Prediction)
